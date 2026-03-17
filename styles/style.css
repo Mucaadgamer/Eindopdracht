@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+    gap: 20px;          
+    align-items: stretch; 
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 200px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    display: block;
+    margin: 0;
+
+}
+
+table {
+    width: 90%;
+    max-width: 400px;
+    border: collapse;
+    background-color: white;
+    margin-left: 10px;
+    justify-content: right;
+    align-items: right;
+    border-radius: 8px;
+}
+
+
+.table-title {
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+th {
+    width: 300px;
+    background-color: rgb(185, 184, 184);
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.Statistieken {
+    width: 400px;
+    border: collapse;
+    background-color: white;
+    margin-right: 10px;
+    justify-content: left;
+    align-items: left;
+    border-radius: 8px;
+    
+}
+
+
+
+.Knop {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
