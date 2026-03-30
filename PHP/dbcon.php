@@ -1,6 +1,6 @@
 <?php  
 
-    // DATABASE CONNECTION
+    // Database connection with PDO where you can easly change from database you can use sql or other databases
     $host = 'localhost';
     $username = 'root';
     $password = '';
