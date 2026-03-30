@@ -48,6 +48,10 @@ table {
     align-items: center;
     border-radius: 8px;
 }
+td, th {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
 
 .theads {
     width: 300px;
@@ -62,3 +66,24 @@ table {
     padding: 10px 20px;
     border-radius: 5px;
 }
+
+.Back {
+    margin-right: 10px;
+}
+
+#addModal .modal-dialog,
+#updateModal .modal-dialog {
+    max-width: 700px !important;
+}
+
+#addModal .modal-body input,
+#addModal .modal-body select,
+#updateModal .modal-body input,
+#updateModal .modal-body select {
+    width: 100% !important;
+    display: block;
+    padding: 12px;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+
