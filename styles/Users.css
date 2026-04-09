@@ -1,3 +1,4 @@
+/* Main page background and font styling */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
@@ -5,6 +6,7 @@ body {
     justify-content: center;
 }
 
+/* Center and resize logo image */
 img {
     display: block;
     justify-content: center;
@@ -14,6 +16,7 @@ img {
     max-width: 200px;
 }
 
+/* Page title styling */
 h2 {
     color: #333;
     text-align: center;
@@ -22,6 +25,7 @@ h2 {
     margin-top: 0px;
 }
 
+/* container for search bar and buttons */
 .test {
     display: flex;
     justify-content: center;
@@ -29,6 +33,7 @@ h2 {
     margin: 20px 0;
 }
 
+/* Search form styling */
 form {
     display: flex;
     justify-content: center;
@@ -37,6 +42,7 @@ form {
     margin-right: 442px;
 }
 
+/* Main user table styling */
 table {
     width: 90%;
     max-width: 800px;
@@ -48,17 +54,20 @@ table {
     align-items: center;
     border-radius: 8px;
 }
+/* Table cell borders and padding */
 td, th {
     border: 1px solid #ddd;
     padding: 12px;
 }
 
+/* Table header styling */
 .theads {
     width: 300px;
     background-color: rgb(185, 184, 184);
     height: 40px;
 }
 
+/* Green add button styling */
 .Add{
     background-color: rgb(65, 225, 92);
     border: none;
@@ -67,15 +76,18 @@ td, th {
     border-radius: 5px;
 }
 
+/* Back button spacing */
 .Back {
     margin-right: 10px;
 }
 
+/* Modal dialog width for add and update forms */
 #addModal .modal-dialog,
 #updateModal .modal-dialog {
     max-width: 700px !important;
 }
 
+/* Input fields and select dropdowns in modals */
 #addModal .modal-body input,
 #addModal .modal-body select,
 #updateModal .modal-body input,

@@ -6,7 +6,7 @@ require_once 'dbcon.php';
 // Handle deleting a user when user_id is posted 
 if (isset($_POST['user_id'])) {
     $id_to_delete = $_POST['user_id'];
-
+    
     $stmt = $pdo->prepare("DELETE FROM users WHERE id = ?");
     $stmt->execute([$id_to_delete]);
 
@@ -30,9 +30,6 @@ $Users = $stmt->fetchAll();
 // Handle search terms if there are any
 $zoekterm = isset($_GET['zoekterm']) ? $_GET['zoekterm'] : '';
 
-$limit = 10;
-$page = isset($_GET['page']) ? (int) $_GET['page'] : 1;
-$offset = ($page - 1) * $limit;
 
 if ($zoekterm != '') {
 

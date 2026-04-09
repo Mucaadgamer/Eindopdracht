@@ -1,9 +1,11 @@
+/* Page background and font */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
     margin: 0px;
 }
 
+/* Main content container */
 .main {
     display: flex;
     gap: 20px;          
@@ -13,6 +15,7 @@ body {
     margin-top: 20px;
 }
 
+/* Logo image styling */
 img {
     display: block;
     justify-content: center;
@@ -21,6 +24,7 @@ img {
     max-width: 200px;
 }
 
+/* Main heading */
 h1 {
     color: #333;
     text-align: center;
@@ -29,6 +33,7 @@ h1 {
 
 }
 
+/* Table styling */
 table {
     width: 90%;
     max-width: 400px;
@@ -40,15 +45,28 @@ table {
     border-radius: 8px;
 }
 
-
+/* Table title cell */
 .table-title {
     text-align: left;
     font-weight: bold;
     padding: 10px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: none;
 }
 
+/* Button container */
+.Knop {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Buttons inside container */
+.Knop button {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Table headers */
 th {
     width: 300px;
     height: 40px;
@@ -56,11 +74,13 @@ th {
     background-color: rgb(185, 184, 184);
 }
 
+/* Paragraphs in headers */
 th p {
     margin: 0;
     padding: 0;
 }
 
+/* Table cells */
 th,
 td {
     padding: 10px;

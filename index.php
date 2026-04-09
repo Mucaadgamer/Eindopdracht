@@ -18,6 +18,7 @@ $recenteUsers = $pdo->query("SELECT * FROM users ORDER BY id DESC LIMIT 3")->fet
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manager Dashboard</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -75,12 +76,12 @@ $recenteUsers = $pdo->query("SELECT * FROM users ORDER BY id DESC LIMIT 3")->fet
 
     <!-- Button linked with the User edit dashboard -->
     <div class="Knop">
-        <button onclick="location.href='PHP/Users.php'">Alle Gebruikers</button>
+        <button onclick="location.href='PHP/Users.php'" class="btn btn-primary">Alle Gebruikers</button>
     </div>
 
     <!-- Logout button -->
     <div class="Knop">
-        <button onclick="location.href='PHP/login.php'">Logout</button>
+        <button onclick="location.href='PHP/login.php'" class="btn btn-danger">Logout</button>
     </div>
 
 </body>
